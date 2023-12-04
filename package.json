@@ -1,0 +1,23 @@
+{
+  "name": "central-intelligence",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "eslint": "^8.55.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "run": "bun run index.ts"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "ffmpeg-static": "^5.2.0",
+    "twitch-js": "^2.0.0-beta.45",
+    "ytdl-core": "^4.11.5"
+  }
+}
